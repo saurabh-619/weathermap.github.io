@@ -23,19 +23,3 @@ const getWhether = async (citycode) => {
 };
  
 
-// Call to the getCity
-// getCity('rajgurunagar')
-//   .then((data) => {
-//     // console.log(data);
-//     getWhether(data.Key)
-//       .then((whetherInfo) => {
-//         console.log(whetherInfo);
-//       })
-
-//   })
-//   .catch((error) => {
-//     console.log(error);
-//   });
-
-
-
