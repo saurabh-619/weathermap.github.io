@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  line-height: 1.3;
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+.bg {
+  /* overflow: hidden; */
+  background: 
+    linear-gradient(to right, rgba(0,0,0,.0), rgba(0,0,0,.15)),
+    url('./images/bg3.jpg') no-repeat center center;
+  background-position: center;
+  background-size: cover;   
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  max-width: 400px;
+}
+
+h1 {
+  color: #e9e2d0;
+}
+
+label {
+  color: #192965;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+
+footer {  
+  position: relative;   
+}
+
+footer div { 
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.social {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+.fab { 
+  color: #192965;
+}
+
+@media only screen and (max-width: 600px)
+{
+  body {
+    position: relative;
+    line-height: 1;
+    font-size: 1rem;
+    overflow-x: hidden;
+  }
+ 
+
+  .bg {
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+  }
+
+  input {
+    margin-top: 1.5rem;
+  }
+  
+  .card {
+    margin-top: 2rem;  
+  }
+ 
+  .footer {
+    position: relative;
+  }
+}
